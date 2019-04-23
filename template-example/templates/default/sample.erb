@@ -1,0 +1,7 @@
+Hello World from  <%= @hostname %>
+
+This same server is also known as: 
+
+<% @servers.each do |name| %>
+    ServerAlias <%= name %>;
+<% end %>
